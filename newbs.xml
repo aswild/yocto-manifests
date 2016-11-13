@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="base.xml" />
+
+    <!-- <project path="meta-raspberrypi" name="aswild/meta-raspberrypi" /> -->
+    <project path="meta-raspberrypi" name="agherzan/meta-raspberrypi" />
+    <project path="meta-newbs" name="aswild/meta-newbs" />
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" alias="origin" fetch="ssh://git@github.com" />
+    <default remote="github"
+             revision="master"
+             sync-c="false"
+             sync-j="4" />
+
+     <project path="manifests" 
+              name="aswild/yocto-manifests" />
+
+    <project path="openembedded-core"
+             name="OpenEmbedded/openembedded-core"
+             revision="morty" />
+
+    <project path="openembedded-core/bitbake"
+             name="OpenEmbedded/bitbake"
+             revision="1.32" />
+</manifest>

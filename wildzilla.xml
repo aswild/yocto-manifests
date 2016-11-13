@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="base.xml" />
+    <remote name="yoctoproject" alias="origin" fetch="git://git.yoctoproject.org/git" />
+
+    <project name="aswild/meta-wildzilla"
+             path="meta-wildzilla" />
+
+    <project name="meta-yocto"
+             path="meta-yocto"
+             revision="morty"
+             remote="yoctoproject" />
+
+    <project name="meta-intel"
+             path="meta-intel"
+             revision="morty"
+             remote="yoctoproject" />
+
+</manifest>
