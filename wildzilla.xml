@@ -2,6 +2,7 @@
 <manifest>
     <include name="base.xml" />
     <remote name="yoctoproject" alias="origin" fetch="git://git.yoctoproject.org" />
+    <remote name="openembedded" alias="origin" fetch="git://git.openembedded.org" />
 
     <project name="aswild/meta-wildzilla"
              path="meta-wildzilla" />
@@ -15,5 +16,10 @@
              path="meta-intel"
              revision="morty"
              remote="yoctoproject" />
+
+    <project name="meta-openembedded"
+             path="meta-openembedded"
+             revision="morty"
+             remote="openembedded" />
 
 </manifest>
