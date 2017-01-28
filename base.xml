@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" alias="origin" fetch="ssh://git@github.com" />
+    <remote name="github"       alias="origin" fetch="ssh://git@github.com"       revision="master" />
+    <remote name="openembedded" alias="origin" fetch="git://git.openembedded.org" revision="morty"  />
+    <remote name="yocto"        alias="origin" fetch="git://git.yoctoproject.org" revision="morty"  />
+
     <default remote="github"
-             revision="master"
              sync-c="false"
              sync-j="4" />
 
@@ -13,10 +15,11 @@
              name="aswild/meta-wild-common" />
 
     <project path="openembedded-core"
-             name="OpenEmbedded/openembedded-core"
-             revision="morty" />
+             name="openembedded-core"
+             remote="openembedded" />
 
     <project path="openembedded-core/bitbake"
-             name="OpenEmbedded/bitbake"
+             name="bitbake"
+             remote="openembedded"
              revision="1.32" />
 </manifest>
