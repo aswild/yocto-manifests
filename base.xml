@@ -22,4 +22,8 @@
              name="bitbake"
              remote="openembedded"
              revision="1.32" />
+
+     <project path="meta-openembedded"
+              name="meta-openembedded"
+              remote="openembedded" />
 </manifest>
