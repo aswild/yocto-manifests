@@ -20,8 +20,7 @@
 
     <project path="openembedded-core/bitbake"
              name="bitbake"
-             remote="openembedded"
-             revision="1.32" />
+             remote="openembedded" />
 
      <project path="meta-openembedded"
               name="meta-openembedded"
