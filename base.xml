@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github"       alias="origin" fetch="ssh://git@github.com"       revision="pyro" />
+    <remote name="github"       alias="origin" fetch=".."                            revision="pyro" />
     <remote name="openembedded" alias="origin" fetch="git://github.com/openembedded" revision="pyro"  />
-    <remote name="yoctoproject" alias="origin" fetch="git://git.yoctoproject.org" revision="pyro"  />
+    <remote name="yoctoproject" alias="origin" fetch="git://git.yoctoproject.org"    revision="pyro"  />
 
     <default remote="github"
              sync-c="false"
