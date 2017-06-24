@@ -14,9 +14,4 @@
     <project name="meta-intel"
              path="meta-intel"
              remote="yoctoproject" />
-
-    <project name="meta-openembedded"
-             path="meta-openembedded"
-             remote="openembedded" />
-
 </manifest>
