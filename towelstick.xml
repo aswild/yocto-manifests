@@ -2,11 +2,10 @@
 <manifest>
     <include name="base.xml" />
 
+    <project name="aswild/meta-towelstick"
+             path="meta-towelstick" />
+
     <project name="meta-yocto"
              path="meta-yocto"
-             remote="yoctoproject" />
-
-    <project name="meta-intel"
-             path="meta-intel"
              remote="yoctoproject" />
 </manifest>
