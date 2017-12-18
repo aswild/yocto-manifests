@@ -2,10 +2,10 @@
 <manifest>
     <include name="base.xml" />
 
-    <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="master" />
+    <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="rocko" />
     <project path="meta-kodi"           name="koenkooi/meta-kodi" revision="pyro" />
     <project path="meta-newbs"          name="aswild/meta-newbs" />
 
-    <project path="newbs-source/neostrip-demo" name="aswild/neostrip-demo" revision="master" />
-    <project path="newbs-source/newbs-init"    name="aswild/newbs-init"    revision="master" />
+    <project path="newbs-source/neostrip-demo" name="aswild/neostrip-demo" revision="rocko" />
+    <project path="newbs-source/newbs-init"    name="aswild/newbs-init"    revision="rocko" />
 </manifest>
