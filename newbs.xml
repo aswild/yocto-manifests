@@ -2,7 +2,7 @@
 <manifest>
     <include name="base.xml" />
 
-    <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="rocko" />
+    <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="master" />
     <project path="meta-kodi"           name="koenkooi/meta-kodi" revision="pyro" />
     <project path="meta-newbs"          name="aswild/meta-newbs" />
 
