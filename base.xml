@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github"       alias="origin" fetch=".."                            revision="rocko" />
+    <remote name="github"       alias="origin" fetch=".."                            revision="master" />
     <remote name="openembedded" alias="origin" fetch="git://github.com/openembedded" revision="rocko"  />
     <remote name="yoctoproject" alias="origin" fetch="git://git.yoctoproject.org"    revision="rocko"  />
 
