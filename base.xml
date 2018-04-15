@@ -25,6 +25,6 @@
 
      <project path="meta-openembedded"
               name="meta-openembedded"
-              revision="rocko"
+              revision="master"
               remote="openembedded" />
 </manifest>
