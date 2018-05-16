@@ -25,6 +25,5 @@
 
      <project path="meta-openembedded"
               name="meta-openembedded"
-              revision="master"
               remote="openembedded" />
 </manifest>
