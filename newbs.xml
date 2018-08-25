@@ -5,7 +5,5 @@
     <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="master" />
     <project path="meta-kodi"           name="koenkooi/meta-kodi" revision="sumo" />
     <project path="meta-newbs"          name="aswild/meta-newbs" />
-
-    <project path="newbs-source/neostrip-demo" name="aswild/neostrip-demo" />
-    <project path="newbs-source/newbs-init"    name="aswild/newbs-init" />
+    <project path="newbs-source"        name="aswild/newbs-source" />
 </manifest>
