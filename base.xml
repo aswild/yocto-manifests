@@ -26,4 +26,8 @@
      <project path="meta-openembedded"
               name="meta-openembedded"
               remote="openembedded" />
+
+     <project path="meta-java"
+              name="meta-java"
+              remote="yoctoproject" />
 </manifest>
