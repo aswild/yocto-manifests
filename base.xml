@@ -29,5 +29,6 @@
 
      <project path="meta-java"
               name="meta-java"
+              revision="master"
               remote="yoctoproject" />
 </manifest>
