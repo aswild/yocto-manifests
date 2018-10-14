@@ -4,6 +4,8 @@
 
     <project path="meta-raspberrypi"    name="meta-raspberrypi" remote="yoctoproject" revision="master" />
     <project path="meta-kodi"           name="koenkooi/meta-kodi" revision="sumo" />
-    <project path="meta-newbs"          name="aswild/meta-newbs" />
+    <project path="meta-newbs"          name="aswild/meta-newbs">
+        <linkfile src="setup-environment" dest="setup-environment" />
+    </project>
     <project path="newbs-source"        name="aswild/newbs-source" />
 </manifest>
