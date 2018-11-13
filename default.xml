@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" alias="origin" fetch=".."                            revision="master" />
+  <remote name="oe"     alias="origin" fetch="git://github.com/openembedded" revision="thud"  />
+  <remote name="yocto"  alias="origin" fetch="git://git.yoctoproject.org"    revision="thud"  />
+
+  <default remote="github" sync-c="false" sync-j="4" />
+
+  <project path="manifests"                 name="aswild/yocto-manifests" />
+  <project path="meta-wild-common"          name="aswild/meta-wild-common" />
+  <project path="meta-newbs"                name="aswild/meta-newbs" />
+  <project path="meta-towelstick"           name="aswild/meta-towelstick" />
+  <project path="newbs-source"              name="aswild/newbs-source" />
+
+  <project path="openembedded-core"         name="openembedded-core"       remote="oe" />
+  <project path="openembedded-core/bitbake" name="bitbake"                 remote="oe" revision="1.40" />
+
+  <project path="meta-openembedded"         name="meta-openembedded"       remote="oe" />
+  <project path="meta-yocto"                name="meta-yocto"              remote="yocto" />
+  <project path="meta-java"                 name="meta-java"               remote="yocto"  revision="master" />
+  <project path="meta-raspberrypi"          name="meta-raspberrypi"        remote="yocto"  revision="master" />
+  <project path="meta-kodi"                 name="koenkooi/meta-kodi"      remote="github" revision="sumo" />
+</manifest>
