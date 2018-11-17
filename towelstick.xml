@@ -2,11 +2,8 @@
 <manifest>
     <include name="base.xml" />
 
-    <project name="aswild/meta-towelstick" path="meta-towelstick">
+    <project path="meta-yocto"      name="meta-yocto"   remote="yocto" />
+    <project path="meta-towelstick" name="aswild/meta-towelstick" >
         <linkfile src="setup-environment" dest="setup-environment" />
     </project>
-
-    <project name="meta-yocto"
-             path="meta-yocto"
-             remote="yoctoproject" />
 </manifest>
