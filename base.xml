@@ -12,6 +12,4 @@
     <project path="openembedded-core"           name="openembedded-core"    remote="oe" />
     <project path="openembedded-core/bitbake"   name="bitbake"              remote="oe"     revision="1.40" />
     <project path="meta-openembedded"           name="meta-openembedded"    remote="oe" />
-
-    <project path="meta-java"                   name="meta-java"            remote="yocto"  revision="master" />
 </manifest>
