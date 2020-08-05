@@ -2,9 +2,9 @@
 <manifest>
     <include name="base.xml" />
 
-    <project path="meta-raspberrypi"      name="meta-raspberrypi"     remote="yocto"  revision="master" />
-    <project path="meta-java"             name="meta-java"            remote="yocto"  revision="zeus" />
-    <project path="meta-kodi"             name="koenkooi/meta-kodi"                   revision="master" />
+    <project path="meta-raspberrypi"      name="meta-raspberrypi"     revision="master"  remote="yocto" />
+    <project path="meta-java"             name="meta-java"                               remote="yocto" />
+    <project path="meta-kodi"             name="koenkooi/meta-kodi"   revision="dunfell" />
     <project path="meta-newbs"            name="aswild/meta-newbs">
         <linkfile src="setup-environment" dest="setup-environment" />
     </project>
