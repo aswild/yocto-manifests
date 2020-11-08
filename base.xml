@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github"       alias="origin" fetch=".."                            revision="master" />
-    <remote name="oe"           alias="origin" fetch="git://github.com/openembedded" revision="dunfell" />
-    <remote name="yocto"        alias="origin" fetch="git://git.yoctoproject.org"    revision="dunfell" />
+    <remote name="github"       alias="origin" fetch=".."                               revision="master" />
+    <remote name="oe"           alias="origin" fetch="https://github.com/openembedded"  revision="gatesgarth" />
+    <remote name="yocto"        alias="origin" fetch="https://git.yoctoproject.org/git" revision="gatesgarth" />
 
     <default remote="github" sync-c="false" sync-j="4" />
 
@@ -10,6 +10,6 @@
     <project path="meta-wild-common"            name="aswild/meta-wild-common" />
 
     <project path="openembedded-core"           name="openembedded-core"    remote="oe" />
-    <project path="openembedded-core/bitbake"   name="bitbake"              remote="oe"     revision="1.46" />
+    <project path="openembedded-core/bitbake"   name="bitbake"              remote="oe"     revision="1.48" />
     <project path="meta-openembedded"           name="meta-openembedded"    remote="oe" />
 </manifest>
