@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github"       alias="origin" fetch=".."                               revision="master" />
-    <remote name="oe"           alias="origin" fetch="https://github.com/openembedded"  revision="gatesgarth" />
-    <remote name="yocto"        alias="origin" fetch="https://git.yoctoproject.org/git" revision="gatesgarth" />
+    <remote name="oe"           alias="origin" fetch="https://github.com/openembedded"  revision="hardknott" />
+    <remote name="yocto"        alias="origin" fetch="https://git.yoctoproject.org/git" revision="hardknott" />
 
     <default remote="github" sync-c="false" sync-j="4" />
 
@@ -11,6 +11,6 @@
     <project path="meta-rust-bin"               name="rust-embedded/meta-rust-bin" />
 
     <project path="openembedded-core"           name="openembedded-core"    remote="oe" />
-    <project path="openembedded-core/bitbake"   name="bitbake"              remote="oe"     revision="1.48" />
+    <project path="openembedded-core/bitbake"   name="bitbake"              remote="oe"     revision="1.50" />
     <project path="meta-openembedded"           name="meta-openembedded"    remote="oe" />
 </manifest>
