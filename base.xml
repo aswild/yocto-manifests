@@ -6,7 +6,6 @@
 
     <default remote="github" sync-c="false" sync-j="4" />
 
-    <project path="manifests"                   name="aswild/yocto-manifests" />
     <project path="meta-wild-common"            name="aswild/meta-wild-common" />
 
     <project path="openembedded-core"           name="openembedded-core"    remote="oe" />
