@@ -2,7 +2,7 @@
 <manifest>
     <include name="base.xml" />
 
-    <project path="meta-raspberrypi"      name="meta-raspberrypi"   revision="scarthgap"    remote="yocto" />
+    <project path="meta-raspberrypi"      name="meta-raspberrypi"   revision="master"    remote="yocto" />
     <project path="meta-newbs"            name="aswild/meta-newbs">
         <linkfile src="setup-environment" dest="setup-environment" />
     </project>
